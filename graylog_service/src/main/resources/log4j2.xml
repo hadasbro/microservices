@@ -1,0 +1,20 @@
+<Configuration monitorInterval="300" status="WARN">
+    <properties>
+        <property name="LOG_HOME">/tmp/graylog_logs</property>
+        <property name="FILE_NAME">log</property>
+    </properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} -- %msg%n"/>
+        </Console>
+        <GELF name="gelfAppender" server="docker.localhost" port="12201" hostName="LoggerApp docker.localhost:9000"
+              protocol="UDP">
+            <KeyValuePair key="environment" value="SLA"/>
+        </GELF>
+    </Appenders>
+    <Loggers>
+        <Root level="ERROR">
+            <AppenderRef ref="gelfAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

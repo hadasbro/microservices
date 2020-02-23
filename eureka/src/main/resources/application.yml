@@ -1,0 +1,65 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${other.eureka.host}:${other.eureka.port}/eureka
+
+---
+spring:
+  profiles: eureka-0,default
+  application:
+    name: eureka-0
+  zipkin:
+    base-url=http://docker:localhost:9411
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+
+
+---
+spring:
+  profiles: eureka-1
+  application:
+    name: eureka-1
+  zipkin:
+    base-url=http://docker:localhost:9411
+
+server:
+  port: 8763
+
+eureka:
+  instance:
+    hostname: localhost
+
+other:
+  eureka:
+    host: localhost
+    port: 8763
+
+---
+spring:
+  profiles: eureka-2
+  application:
+    name: eureka-2
+  zipkin:
+    base-url=http://docker:localhost:9411
+
+server:
+  port: 8762
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${other.eureka.host}:${other.eureka.port}/eureka
+  server:
+    enable-self-preservation: false
+
+other:
+  eureka:
+    host: localhost
+    port: 8762
