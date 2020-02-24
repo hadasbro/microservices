@@ -419,7 +419,7 @@ see https://zipkin.io/
 1. Actuator / SBA for [Email Orders Service](./email_order_service/README.md)
 2. **docker-compose.yml** for the project
 3. Spring Security, Validation & Unit tests 
-4. Missing services: Vault(15), API Gateway + Authorization Service
+4. Missing services: Vault(15), Service (13), API Gateway + Authorization Service
 
 ### Author
 
