@@ -272,10 +272,10 @@ see https://zipkin.io/
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
                     <td cellpadding="2" height="42"  width="65" valign="middle"
-                        align="right"><a href="https://github.com/google/gson">
-                        <img width="32" height="32" src="resources/g3.png" alt="."></a></td>
+                        align="right"><a href="https://github.com/Netflix/zuul">
+                        <img width="32" height="32" src="resources/zuul.png" alt="."></a></td>
                     <td valign="middle" align="left">
-                        <a href="https://github.com/google/gson">Google GSON</a> - Serialization/deserialization library
+                        <a href="https://github.com/Netflix/zuul">Zuul</a> - L7 application gateway
                     </td>
                 </tr>
             </table>
@@ -398,7 +398,18 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
-        <td></td>
+        <td>
+            <table cellpadding="2" cellspacing="0" border="0">
+                <tr>
+                    <td cellpadding="2" height="42"  width="65" valign="middle"
+                        align="right"><a href="https://github.com/google/gson">
+                        <img width="32" height="32" src="resources/g3.png" alt="."></a></td>
+                    <td valign="middle" align="left">
+                        <a href="https://github.com/google/gson">Google GSON</a> - Serialization/deserialization library
+                    </td>
+                </tr>
+            </table>
+        </td>
         <td></td>
     </tr>
 </table>
@@ -408,7 +419,7 @@ see https://zipkin.io/
 1. Actuator / SBA for [Email Orders Service](./email_order_service/README.md)
 2. **docker-compose.yml** for the project
 3. Spring Security, Validation & Unit tests 
-4. Missing services: Vault(15), API Gateway
+4. Missing services: Vault(15), API Gateway + Authorization Service
 
 ### Author
 
