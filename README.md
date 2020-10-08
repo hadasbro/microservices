@@ -385,8 +385,7 @@ see https://zipkin.io/
                         align="right"><a href="https://github.com/Netflix/Hystrix">
                         <img width="32" height="32" src="resources/hystrix3.png" alt="."></a></td>
                     <td valign="middle" align="left">
-                        <a href="https://github.com/Netflix/Hystrix">Hystrix + Tourbine</a> - Circuit breakers + Hystrix
-                        Streams Aggregator
+                        <a href="https://github.com/Netflix/Hystrix">Hystrix + Tourbine</a> - Circuit breakers + H-streams Aggregator
                     </td>
                 </tr>
             </table>
