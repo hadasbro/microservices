@@ -97,6 +97,20 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
+	</tr>
+	<tr>
+		<td>
+            <table cellpadding="2" cellspacing="0" border="0">
+                <tr>
+                    <td cellpadding="2" height="42" width="65" valign="middle"
+                        align="right"><a href="https://www.graylog.org/">
+                        <img width="32" height="32" src="resources/graylog.png" alt="."></a></td>
+                    <td valign="middle" align="left">
+                        <a href="https://www.graylog.org/">Graylog</a> - Centralized log management system
+                    </td>
+                </tr>
+            </table>
+        </td>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
@@ -112,18 +126,6 @@ see https://zipkin.io/
         </td>
     </tr>
     <tr>
-        <td>
-            <table cellpadding="2" cellspacing="0" border="0">
-                <tr>
-                    <td cellpadding="2" height="42" width="65" valign="middle"
-                        align="right"><a href="https://www.graylog.org/">
-                        <img width="32" height="32" src="resources/graylog.png" alt="."></a></td>
-                    <td valign="middle" align="left">
-                        <a href="https://www.graylog.org/">Graylog</a> - Centralized log management system
-                    </td>
-                </tr>
-            </table>
-        </td>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
@@ -175,6 +177,8 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
+	</tr>
+	<tr>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
@@ -187,9 +191,7 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
-    </tr>
-    <tr>
-        <td>
+		<td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
                     <td cellpadding="2" height="42"  width="65" valign="middle"
@@ -203,6 +205,8 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
+    </tr>
+    <tr>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
@@ -254,6 +258,8 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
+	</tr>
+	<tr>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
@@ -266,9 +272,7 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
-    </tr>
-    <tr>
-        <td>
+		<td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
                     <td cellpadding="2" height="42"  width="65" valign="middle"
@@ -280,6 +284,8 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
+    </tr>
+    <tr>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
@@ -330,6 +336,8 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
+	</tr>
+	<tr>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
@@ -344,9 +352,7 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
-    </tr>
-    <tr>
-        <td>
+		<td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
                     <td cellpadding="2" height="42"  width="65" valign="middle"
@@ -359,6 +365,8 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
+    </tr>
+    <tr>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
                 <tr>
@@ -410,7 +418,6 @@ see https://zipkin.io/
                 </tr>
             </table>
         </td>
-        <td></td>
     </tr>
 </table>
 
