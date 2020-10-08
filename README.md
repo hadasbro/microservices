@@ -70,7 +70,7 @@ Distributed tracing system
 see https://zipkin.io/
 
 ### Find out more
-<table cellpadding="2" cellspacing="0" border="0">
+<table cellpadding="2" cellspacing="0" border="0" style="width:100%">
     <tr>
         <td>
             <table cellpadding="2" cellspacing="0" border="0">
@@ -214,8 +214,7 @@ see https://zipkin.io/
                         align="right"><a href="https://www.baeldung.com/spring-webflux">
                         <img width="32" height="32" src="resources/webflux.png" alt="."></a></td>
                     <td valign="middle" align="left">
-                        <a href="https://www.baeldung.com/spring-webflux">Spring WebFlux</a> - Reactive programming
-                        support for web apps
+                        <a href="https://www.baeldung.com/spring-webflux">Spring WebFlux</a> - Reactive APIs
                     </td>
                 </tr>
             </table>
